@@ -3,17 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "canvas-confetti": "^1.x.x",
     "react": "^18.x.x",
-    "react-dom": "^18.x.x",
-    "canvas-confetti": "^1.x.x"
+    "react-dom": "^18.x.x"
   },
   "devDependencies": {
     "@types/react": "^18.x.x",
     "@types/react-dom": "^18.x.x",
+    "typescript": "^6.0.3",
     "vite": "^5.x.x"
   }
 }
